@@ -1,0 +1,4 @@
+Location: my-app/public/_redirects
+Contents:
+ 
+/*    /index.html   200
