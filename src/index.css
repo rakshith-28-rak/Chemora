@@ -3,3 +3,28 @@
 @tailwind utilities;
 
 
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1E0B4B, #5B21B6, #8B5CF6);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  table, th, td {
+    border: 2px solid yellow;
+    border-collapse: collapse; /* Merges double lines into single lines */
+    text-align: center;
+    align-items: center;
+    
+  }
+  
